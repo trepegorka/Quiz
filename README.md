@@ -1,5 +1,5 @@
-Quiz made with: 
+Quiz made with:  
 
-Next.js
+Next.js  
 Styled Components
 
