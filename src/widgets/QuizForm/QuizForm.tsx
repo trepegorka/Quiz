@@ -2,7 +2,7 @@
 import NumberQuestionsInput from '@/shared/components/NumberQuestionsInput/NumberQuestionsInput'
 import styled from 'styled-components'
 import { MySelect } from '@/shared/components/MySelect/MySelect'
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 
 const MyForm = styled.form`
 	display: flex;
@@ -26,12 +26,7 @@ const QuizForm = () => {
 	const [type, setType] = useState<string>()
 	const [time, setTime] = useState<string>()
 
-	useEffect(() => {
-		console.log('category: ' + category)
-		console.log('difficulty: ' + difficulty)
-		console.log('type: ' + type)
-		console.log('time: ' + time)
-	}, [category, difficulty, type, time])
+	// TODO submit logic
 	const handleSubmit = (e: React.FormEvent) => {}
 
 	return (
